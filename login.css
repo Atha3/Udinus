@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  background: url('assets/img/udinuskampus.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: rgba(240, 240, 240, 0.95);
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+}
